@@ -38,6 +38,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: dist-files
+          path: dist
       - name: Verify artifacts
         run: ls
       - name: Output contents
