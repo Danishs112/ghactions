@@ -39,7 +39,7 @@ jobs:
         with:
           name: dist-files
       - name: Verify artifacts
-        run: ls -R dist-files
+        run: ls
       - name: Output contents
         run: ls
       - name: Deploy
